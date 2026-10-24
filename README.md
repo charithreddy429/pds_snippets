@@ -1,4 +1,8 @@
 Download by:
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/charithreddy429/pds_snippets/master/snippets.c" -OutFile "snippets.c"
+```bash
+Invoke-WebRequest -OutFile "snippets.c" -Uri "https://raw.githubusercontent.com/charithreddy429/pds_snippets/master/snippets.c"
+```
 or
-curl -O https://raw.githubusercontent.com/charithreddy429/pds_snippets/master/snippets.c
+```bash
+curl -O "https://raw.githubusercontent.com/charithreddy429/pds_snippets/master/snippets.c"
+```
